@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Task list V2</title>
+    </head>
+
+    <body style="background-color: #7289da;">
+        
+        <nav style="background-color:#99aab5;">
+            <div class="nav-wrapper">
+            <a href="#!" class="brand-logo" style="padding-left: 20px;">Task list</a>
+            <a href="#" class="brand-logo center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">V2</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a id = "about" style="background-color: black;" class="waves-effect waves-light btn">About</a></li>
+                <li><a id = "donate" style = "background-color: black;" class="waves-effect waves-light btn">Donate</a></li>
+            </ul>
+            </div>
+          </nav>
+
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div style="padding-top: 30px;padding-left: 20px;" class="input-field col s6">
+                  <input  id="first_name" type="text" class="validate" style="color: azure;">
+                  <label style="padding-top: 30px;padding-left: 20px; color: white;" for="first_name">Add a task</label>
+                    <br>
+                    <br>
+                  <button id = "addbtn" style = "background-color: black;" class="btn waves-effect waves-light" type="submit" name="action">Add</button>
+            </div>
+                <div style = "padding-top: 15%; padding-left: 3%;padding-right: 40%;"> 
+                    <ul style = "border: 0px;" class = "collection"></ul>
+                </div> 
+        <div id = "scripts">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <script src = "app.js"></script>
+        </div>
+
+
+    </body>
+
+</html>
