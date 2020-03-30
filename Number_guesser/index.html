@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+            <title>Guess the number</title>
+        </head>
+        <body style = "background-color: #606060FF;">
+          <div class="row">
+            <div class="col s12 m7" style = "padding-top: 80px;padding-left: 80px;">
+              <div class="card" style = "padding-bottom: 90px; padding-right: 20px;">
+                <div class="card-content">
+                  <h3 style = "color:#606060FF;font-style: italic;">Guess the number !</h3>
+                    <div style = "padding-right: 20px;">
+                      <a id = "btn1" style = "background-color:#D6ED17FF ;" class="waves-effect waves-light btn">Generate a number</a>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="input-field col s6">
+                      <input style="border-color: black;" placeholder="Enter a number" id="input" type="number" class="validate">
+                    </div>
+                    <div id = "buttons" style = "padding-top: 25px;">
+                      <a id = "btn2" style = "background-color: #D6ED17FF;" class="waves-effect waves-light btn">Guess</a>
+
+                  </div>
+              </div>
+              <div id = "result" style = "padding-left: 20px;">
+
+              </div>
+            </div>
+          </div>
+        </body>
+        <script src = "app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </html>
