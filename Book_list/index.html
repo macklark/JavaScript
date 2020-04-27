@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book list</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="page-header" style = "margin-left:20px ;margin-right: 20px;">
+            <h1><a href = "#">Book list </a><small>One stop for books</small></h1>
+          </div>
+
+          <div style = "margin-top: 50px;">
+            <div style = "margin-left: 20px;margin-right: 540px;" class="input-group input-group-lg">
+                <span class="input-group-addon 
+                glyphicon glyphicon-book" id="sizing-addon1"></span>
+                <input id = "form-1" type="text" class="form-control" placeholder="Book Title" aria-describedby="sizing-addon1">
+              </div>
+
+              <div style = "margin-left: 20px;margin-right: 540px;margin-top: 50px;" class="input-group input-group-lg">
+                <span class="input-group-addon 
+                glyphicon glyphicon-user" id="sizing-addon1"></span>
+                <input id = "form-2" type="text" class="form-control" placeholder="Author" aria-describedby="sizing-addon1">
+              </div>
+
+              <div style = "margin-left: 20px;margin-right: 540px;margin-top: 50px;" class="input-group input-group-lg">
+                <span class="input-group-addon glyphicon glyphicon-hand-right" id="sizing-addon1"></span>
+                <input id = "form-3" type="text" class="form-control" placeholder="ISBN" aria-describedby="sizing-addon1">
+            </div>
+            <div style = "margin-left: 20px; margin-top: 50px;">
+                <button id = "btn-form" style = "padding: 10px;" type="button" class="btn btn-default -lg">Submit</button>
+            </div>
+          </div>
+          <hr style="margin-left: 20px;margin-right: 20px;">
+
+          <div>
+            <ul style = "border: 0px;" class="collection">
+
+            </ul>
+            <ul style = "border: 0px;" class="collection">
+
+            </ul>
+            <ul style = "border: 0px;" class="collection">
+
+            </ul>
+          </div>
+    </body>
+    <script src = "app.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</html>
