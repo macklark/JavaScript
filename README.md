@@ -10,7 +10,6 @@ My basics of JavaScript
 - [DOM manipulation - Tasklist](./Tasklist)
 - [DOM manipulation - Booklist](./Book_list)
 - [Data fetching application - Gitfolio](./Gitfolio)
-- [Data fetching application - Weather JS](./Weather JS)
 - [NPM library - Socket.io(My basics)](./Socket.io)
 - [NPM library - Blackcord](./Blackcord)
 - [NPM library - search](./Search_functionality)
