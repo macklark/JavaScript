@@ -1,5 +1,5 @@
 # JavaScript
-My basics of JavaScript
+My basics on JavaScript
 
 ## Contents
 - [Basics of XHR](./XHR_Basics)
