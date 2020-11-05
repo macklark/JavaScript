@@ -13,6 +13,7 @@ My basics of JavaScript
 - [NPM library - Socket.io(My basics)](./Socket.io)
 - [NPM library - Blackcord](./Blackcord)
 - [NPM library - search](./Search_functionality)
+- [DOM manipulation - Quizzzer](./Quizzer)
 
 
 ## Sources
