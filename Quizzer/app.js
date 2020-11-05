@@ -11,9 +11,14 @@ form.addEventListener("submit", (e) => {
         if(answer == correct_answers[index]){
             score += 1
         }
+
+        if(user_answers[user_answers.length-1]){
+            scrollTo(0, 1000)
+        }
     })
 
-    result.textContent += score 
+    result.textContent += `${score} / ${correct_answers.length}`;
+    scrollTo(0, 0) 
 
-    result.style.display = "block"
+    result.style.display = "block";
 })
