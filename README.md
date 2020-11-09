@@ -7,7 +7,6 @@ My basics on JavaScript
 - [My basics on fetch api](./Fetch_api)
 - [DOM manipulation - Number Guesser](./Number_guesser)
 - [DOM manipulation - Loan calculator](./Loan_calculator)
-- [DOM manipulation - Tasklist](./Tasklist)
 - [DOM manipulation - Booklist](./Book_list)
 - [Data fetching application - Gitfolio](./Gitfolio)
 - [NPM library - Socket.io(My basics)](./Socket.io)
