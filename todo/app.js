@@ -1,6 +1,5 @@
 const form = document.querySelector(".frm-group");
 const list = document.querySelector(".list");
-let empty_arr = []
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
