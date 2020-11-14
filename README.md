@@ -4,7 +4,6 @@ My basics on JavaScript
 ## Contents
 - [Basics of XHR](./XHR_Basics)
 - [A Random Joke Generator](./Random_Joke_Generator)
-- [My basics on fetch api](./Fetch_api)
 - [DOM manipulation - Number Guesser](./Number_guesser)
 - [DOM manipulation - Loan calculator](./Loan_calculator)
 - [DOM manipulation - Booklist](./Book_list)
