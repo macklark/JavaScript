@@ -9,7 +9,6 @@ My basics on JavaScript
 - [DOM manipulation - Booklist](./Book_list)
 - [Data fetching application - Gitfolio](./Gitfolio)
 - [NPM library - Blackcord](./Blackcord)
-- [NPM library - search](./Search_functionality)
 - [DOM manipulation - Quizzzer](./Quizzer)
 
 
