@@ -10,6 +10,7 @@ My basics on JavaScript
 - [Data fetching application - Gitfolio](./Gitfolio)
 - [NPM library - Blackcord](./Blackcord)
 - [DOM manipulation - Quizzzer](./Quizzer)
+- [Dat fetching application - Weather](./Weather_app)
 
 
 ## Sources
