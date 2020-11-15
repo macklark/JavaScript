@@ -13,5 +13,4 @@ My basics on JavaScript
 - [Dat fetching application - Weather](./Weather_app)
 
 
-## Sources
-- [Udemy Course on JavaScript by Brad Traversy](https://www.udemy.com/course/modern-javascript-from-the-beginning/)
+
